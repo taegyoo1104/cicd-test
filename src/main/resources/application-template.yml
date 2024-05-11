@@ -7,7 +7,7 @@ spring:
 
     jpa:
       hibernate:
-        ddl-auto: auto
+        ddl-auto: create
       show-sql: auto
       properties:
         hibernate:

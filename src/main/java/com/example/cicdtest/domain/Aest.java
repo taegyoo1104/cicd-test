@@ -3,7 +3,7 @@ package com.example.cicdtest.domain;
 import jakarta.persistence.*;
 
 @Entity
-public class test {
+public class Aest {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -11,12 +11,12 @@ public class test {
     @Column
     private String name;
 
-    public test(Long id, String name) {
+    public Aest(Long id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public test() {
+    public Aest() {
 
     }
 }
