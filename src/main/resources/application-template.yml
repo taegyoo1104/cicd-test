@@ -7,9 +7,9 @@ spring:
 
     jpa:
       hibernate:
-       ddl-auto: auto
-       show-sql: true
-       properties:
-         hibernate:
-           format_sql: true
+        ddl-auto: auto
+      show-sql: auto
+      properties:
+        hibernate:
+          format_sql: true
     #    defer-datasource-initialization: true
