@@ -5,11 +5,10 @@ spring:
     username: ${DATABASE_USERNAME}
     password: ${DATABASE_PASSWORD}
 
-    jpa:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
       hibernate:
-        ddl-auto: create
-      show-sql: auto
-      properties:
-        hibernate:
-          format_sql: true
-    #    defer-datasource-initialization: true
+        format_sql: true
