@@ -1,7 +1,9 @@
 package com.example.cicdtest.dto;
 
 import com.example.cicdtest.domain.Users;
+import lombok.Getter;
 
+@Getter
 public class UserResponesDto {
     private Long id;
     private String name;
